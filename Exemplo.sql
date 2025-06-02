@@ -1,0 +1,11 @@
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
+CREATE TABLE clientes (
+ cliente_id SERIAL NOT NULL PRIMARY KEY,
+ nome_empresa VARCHAR(255) NOT NULL,
+ email VARCHAR(255) NOT NULL,
+ usuario VARCHAR(50) NOT NULL,
+ senha VARCHAR(255) NOT NULL
+);
+
+SELECT * FROM clientes;
