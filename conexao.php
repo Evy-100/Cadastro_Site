@@ -1,4 +1,5 @@
 <?php
+//conexão com o banco de dados
 $dsn = "pgsql:host=localhost;port=5432;dbname=exemplo";
 
 $dbusername ="postgres";
